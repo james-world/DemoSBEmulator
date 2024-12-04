@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderPlacer", "src\OrderPla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor", "src\OrderProcessor\OrderProcessor.csproj", "{03FD7CE2-47C2-4631-990E-CD033D27EDEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configurator", "src\Configurator\Configurator.csproj", "{D31161F8-4187-4760-BF5F-1032CB95DA2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{03FD7CE2-47C2-4631-990E-CD033D27EDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03FD7CE2-47C2-4631-990E-CD033D27EDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03FD7CE2-47C2-4631-990E-CD033D27EDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31161F8-4187-4760-BF5F-1032CB95DA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31161F8-4187-4760-BF5F-1032CB95DA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31161F8-4187-4760-BF5F-1032CB95DA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31161F8-4187-4760-BF5F-1032CB95DA2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1064B3B1-927C-4892-93B0-71154AC99ED4} = {9001DD46-4878-42CB-80B4-8C6FDCDDEE88}
 		{03FD7CE2-47C2-4631-990E-CD033D27EDEC} = {9001DD46-4878-42CB-80B4-8C6FDCDDEE88}
+		{D31161F8-4187-4760-BF5F-1032CB95DA2C} = {9001DD46-4878-42CB-80B4-8C6FDCDDEE88}
 	EndGlobalSection
 EndGlobal
