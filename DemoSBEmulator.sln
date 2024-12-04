@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9001DD46-4878-42CB-80B4-8C6FDCDDEE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderPlacer", "src\OrderPlacer\OrderPlacer.csproj", "{1064B3B1-927C-4892-93B0-71154AC99ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessor", "src\OrderProcessor\OrderProcessor.csproj", "{03FD7CE2-47C2-4631-990E-CD033D27EDEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1064B3B1-927C-4892-93B0-71154AC99ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1064B3B1-927C-4892-93B0-71154AC99ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1064B3B1-927C-4892-93B0-71154AC99ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1064B3B1-927C-4892-93B0-71154AC99ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03FD7CE2-47C2-4631-990E-CD033D27EDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FD7CE2-47C2-4631-990E-CD033D27EDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FD7CE2-47C2-4631-990E-CD033D27EDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FD7CE2-47C2-4631-990E-CD033D27EDEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1064B3B1-927C-4892-93B0-71154AC99ED4} = {9001DD46-4878-42CB-80B4-8C6FDCDDEE88}
+		{03FD7CE2-47C2-4631-990E-CD033D27EDEC} = {9001DD46-4878-42CB-80B4-8C6FDCDDEE88}
+	EndGlobalSection
+EndGlobal
